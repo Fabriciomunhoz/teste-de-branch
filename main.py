@@ -130,6 +130,7 @@ def main():
             dataEmissao = dataEmissao.strftime("%d/%m/%Y") if dataEmissao else None
 
             print(cnpjFilial, cnpjFornecedor, dataEmissao, valorNF, numero_nf, serie_nf)
+            print("Alteração no codigo de branch")
 
 
 main()
